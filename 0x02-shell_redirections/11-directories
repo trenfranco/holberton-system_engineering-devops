@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR . | egrep -c '^/'
+ls -lR | grep "^d" | wc -l
