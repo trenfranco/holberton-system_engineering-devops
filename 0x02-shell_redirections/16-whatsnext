@@ -1,2 +1,2 @@
 #!/bin/bash
-grep root /etc/passwd{N;N;N;p} | wc -l
+grep root /etc/passwd --after-context=3
