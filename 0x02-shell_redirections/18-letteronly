@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "^ *[A-Za-z]"
+grep "^[A-Za-z]"
