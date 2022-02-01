@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | find . -type d -empty
+find  -empty | cut -d - -f 3
