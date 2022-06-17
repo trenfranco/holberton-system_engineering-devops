@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # infinite loop
 
-trap 'I am invincible!!!' TERM
+trap 'I am invincible!!!' 15
 while 'true'
 do
 	echo "To infinity and beyond"
