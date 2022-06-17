@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # infinite loop
 
+trap 'I am invincible!!!' TERM
 while 'true'
 do
 	echo "To infinity and beyond"
 	sleep 2
-	trap 'I am invincible!!!' TERM
 done
